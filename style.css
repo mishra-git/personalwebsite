@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,37 +6,37 @@ body {
     background-color: #f9f9f9;
 }
 
-header {
+.header {
     text-align: center;
     padding: 20px;
     background-color: #6f00ff;
     color: white;
 }
 
-nav {
+.nav {
     background: #333;
     color: white;
 }
 
-nav ul {
+.nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
     text-align: center;
 }
 
-nav ul li {
+.nav ul li {
     display: inline;
     margin: 0 10px;
 }
 
-nav ul li a {
+.nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-main {
+.main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -45,7 +45,7 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section {
+.section {
     margin-bottom: 20px;
 }
 
@@ -53,40 +53,36 @@ section {
     margin-bottom: 15px;
 }
 
-
-
 .skills-section {
     margin-bottom: 30px;
 }
+
 .skill-level {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 15px; /* Adjusted padding to reduce box size */
     border-radius: 5px;
     color: white;
     font-weight: bold;
     margin: 5px;
+    font-size: 14px; /* Reduced font size for a more compact appearance */
 }
+
 .high {
     background-color: #ff6600; /* Orange */
 }
+
 .medium {
     background-color: #ffcc00; /* Yellow */
     color: black;
 }
+
 .basic {
     background-color: #66cc66; /* Green */
 }
 
-
-
-
-
-
-footer {
+.footer {
     text-align: center;
     padding: 10px;
     background: #333;
     color: white;
 }
-
-
