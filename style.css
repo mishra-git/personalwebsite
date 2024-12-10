@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #007BFF;
+    background-color: #6f00ff;
     color: white;
 }
 
@@ -53,9 +53,40 @@ section {
     margin-bottom: 15px;
 }
 
+
+
+.skills-section {
+    margin-bottom: 30px;
+}
+.skill-level {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+.high {
+    background-color: #ff6600; /* Orange */
+}
+.medium {
+    background-color: #ffcc00; /* Yellow */
+    color: black;
+}
+.basic {
+    background-color: #66cc66; /* Green */
+}
+
+
+
+
+
+
 footer {
     text-align: center;
     padding: 10px;
     background: #333;
     color: white;
 }
+
+
